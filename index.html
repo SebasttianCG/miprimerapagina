@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/69672c8a42.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  <script src="js/script.js"></script>
+  <title>Sebastian Web Design Studio</title>
+</head>
+
+<body>
+  <div class="contenedor_header">
+    <header>
+      <div class="logo">
+        <a class="nombre-empresa" href="#">Sebas Web Design</a>
+      </div>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#Inicio" onclick="selection()">INICIO</a></li>
+          <li><a href="#Sobre_mi" onclick="selection()">SOBRE MI</a></li>
+          <li><a href="#Skills" onclick="selection()">HABILIDADES</a></li>
+          <li><a href="#Curriculum" onclick="selection()">CURRICULO</a></li>
+          <li><a href="#Portfolio" onclick="selection()">PORTFOLIO</a></li>
+          <li><a href="#Contacto" onclick="selection()">CONTACTO</a></li>
+        </ul>
+      </nav>
+      <div class="navbar_responsive" onclick="menu()">
+        <i class='bx bx-menu'></i>
+      </div>
+    </header>
+  </div>
+  <section id="Inicio" class="inicio">
+    <div class="contenedor-banner">
+      <div class="contenedor-img">
+        <img src="images/foto.jpeg" alt="">
+      </div>
+      <h1>Sebastian Coral</h1>
+      <h2>Desarrollador Web Junior - Editor Audiovisual</h2>
+      <div class="redes-sociales">
+        <a href="#"><i class='bx bxl-facebook bx-flashing'></i></a>
+        <a href="#"><i class='bx bxl-instagram bx-flashing'></i></a>
+        <a href="#"><i class='bx bxl-twitter bx-flashing'></i></a>
+        <a href="#"><i class='bx bxl-linkedin bx-flashing'></i></a>
+        <a href="#"><i class="fa-brands fa-reddit-alien fa-fade" style="--fa-animation-duration: 2s;"></i></a>
+      </div>
+  </section>
+  <section id="Sobre_mi" class="sobre_mi">
+    <div class="contenedor-sobremi">
+      <h2>Sobre Mi</h2>
+      <p><span>Hola, Soy Sebastian Coral.</span>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis omnis maiores incidunt totam quos, cumque
+        eos reprehenderit quibusdam molestiae quae, adipisci dolores maxime voluptate odio cupiditate harum eaque aut
+        ut!</p>
+      <div class="datos">
+        <div class="datos-personales">
+          <h3>Información Personal</h3>
+          <ul>
+            <li><strong>Fecha Nacimiento</strong>17 de Septiembre del 2001</li>
+            <li><strong>Telefono-Celular</strong>(+57) 312 295 7173</li>
+            <li><strong>Email</strong>sebasttiancorall7@gmail.com</li>
+            <li><strong>Website</strong>N/A</li>
+            <li><strong>Dirección</strong>Cra 22B N° 9 - 53 Pasto, Nariño (Colombia)</li>
+            <li><strong>Cargo</strong><span>Trabajador Independiente</span></li>
+          </ul>
+        </div>
+        <div class="pasatiempos">
+          <h3>Intereses</h3>
+          <div class="contenedor-pasatiempos">
+            <div class="intereses">
+              <i class="fa-solid fa-gamepad"></i>
+              <span>VideoJuegos</span>
+            </div>
+            <div class="intereses">
+              <i class="fa-solid fa-plane-departure"></i>
+              <span>Viajar</span>
+            </div>
+            <div class="intereses">
+              <i class="fa-solid fa-computer"></i>
+              <span>Programar</span>
+            </div>
+            <div class="intereses">
+              <i class="fa-solid fa-futbol"></i>
+              <span>Deporte</span>
+            </div>
+            <div class="intereses">
+              <i class='bx bxs-video-recording'></i>
+              <span>Video Maker</span>
+            </div>
+            <div class="intereses">
+              <i class="fa-solid fa-camera-retro"></i>
+              <span>Fotografia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button>
+        Descargar CV <i class='bx bxs-download'></i>
+        <span class="overlay"></span>
+      </button>
+    </div>
+  </section>
+  <section id="Skills" class="skills">
+    <div class="contenedor-habilidades">
+      <h2>HABILIDADES</h2>
+      <div class="habilidades">
+        <div class="contenido-habilidades">
+          <h3>Habilidades Técnicas</h3>
+          <div class="skill">
+            <span>Java & JavaScript</span>
+          </div>
+          <div class="skill">
+            <span>HTML & CSS</span>
+          </div>
+          <div class="skill">
+            <span>Bootstrap</span>
+          </div>
+          <div class="skill">
+            <span>C, C++, C#</span>
+          </div>
+          <div class="skill">
+            <span>Photoshop & AfterEfects</span>
+          </div>
+        </div>
+        <div class="habilidades-profesionales">
+          <h3>Habilidades Profesionales</h3>
+          <div class="skill">
+            <span>Comunicación</span>
+          </div>
+          <div class="skill">
+            <span>Trabajo en Equipo</span>
+          </div>
+          <div class="skill">
+            <span>Creatividad</span>
+          </div>
+          <div class="skill">
+            <span>Dedicación</span>
+          </div>
+          <div class="skill">
+            <span>Responsabilidad</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Primer Website</title>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/69672c8a42.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="sidebar close">
+      <div class="logo-details">
+        <i class="fa-solid fa-gem"></i>
+        <span class="logo">Sebastian Designer</span>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <i class='bx bx-grid-alt'></i>
+            <span class="link_name">Dashboard</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Category</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="icon_link">
+            <a href="#">
+              <i class='bx bx-collection'></i>
+              <span class="link_name">Category</span>
+            </a>
+            <i class='bx bx-chevron-down'></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#">Category</a></li>
+            <li><a href="#">Web designed</a></li>
+            <li><a href="#">Web designed</a></li>
+            <li><a href="#">Web designed</a></li>
+            <li><a href="#">Web designed</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="icon_link">
+            <a href="#">
+              <i class='bx bxs-image-alt'></i>
+              <span class="link_name">Posts</span>
+            </a>
+            <i class='bx bx-chevron-down'></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#">Posts</a></li>
+            <li><a href="#">Web designed</a></li>
+            <li><a href="#">Web designed</a></li>
+            <li><a href="#">Web designed</a></li>
+            <li><a href="#">Web designed</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-add-to-queue'></i>
+            <span class="link_name">Ejemplo</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Ejemplo</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-add-to-queue'></i>
+            <span class="link_name">Ejemplo2</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Ejemplo2</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="icon_link">
+            <a href="#">
+              <i class='bx bx-add-to-queue'></i>
+              <span class="link_name">Ejemplo3</span>
+            </a>
+            <i class='bx bx-chevron-down'></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#">Ejemplo3</a></li>
+            <li><a href="#">Web designed</a></li>
+            <li><a href="#">Web designed</a></li>
+            <li><a href="#">Web designed</a></li>
+            <li><a href="#">Web designed</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="profile-details">
+        <div class="profile-contents">
+          <img src="images/logo4.png" alt="profile">
+        </div>
+      </div>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<div class="menu-toggle" onclick="toggleMenu()">
+  <span class="menu-icon"><i class="fa-solid fa-bars"></i></span>
+</div>
+<ul class="menu">
+  <li><a href="#">Inicio</a></li>
+  <li class="dropdown">
+    <a href="#">Productos</a>
+    <ul class="submenu">
+      <li><a href="#">Categoría 1</a></li>
+      <li><a href="#">Categoría 2</a></li>
+      <li><a href="#">Categoría 3</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a href="#">Servicios</a>
+    <ul class="submenu">
+      <li><a href="#">Servicio 1</a></li>
+      <li><a href="#">Servicio 2</a></li>
+      <li><a href="#">Servicio 3</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Contacto</a></li>
+</ul>
+</div>
+</nav>
+-->
+<!--
+<section id="sectionUno">
+  <h2>Publicaciones</h2>
+  <article>
+    <h3>*Titulo*</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam nisi tempora amet, ex quis deleniti quidem
+      distinctio non? Non, vitae reiciendis repellat quos dicta mollitia provident minus corporis cupiditate rerum?
+    </p>
+  </article>
+  <article>
+    <h3>*Titulo2*</h3>
+    <p>Soy Sebastian Coral, ¡y esta es mi primera página web!</p>
+    <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+    <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán
+      a crear una base sólida en el desarrollo web front-end.</p>
+  </article>
+</section>
+<section>
+  <h2>Contáctame</h2>
+  <form action="enviar_formulario.php" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+  -->
+<!--<button onclick="updateName()">Cambiar Nombre</button>
+      <div id="usuario"></div>-->
+<!--</section>
+
+
+<p>&copy; 2023 Mi Blog. Todos los derechos reservados.</p>
+
+<script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box">
+  <img id="Logo" src="/images/logo4.png" alt="Logo">
+  <h1 id="Tittle">Sebastian Designer</h1>
+</div>
+<div class="container">
+  <section>
+
+  </section>
+  <section id="sectionDos">
+    <article>
+      <h2> "Siempre hay una solución elegante. Solo necesitas encontrarla." </h2>
+      <h2> "Siempre habrá un bug más que arreglar antes de lanzar la versión final." </h2>
+    </article>
+  </section>
+  <section id="sectionTres">
+
+  </section>
+</div>
+<button onclick="showalert()">Presioname</button>-->
